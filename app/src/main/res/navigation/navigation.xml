@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.tasks.sign_in.presentation.SignInFragment"
+        android:label="SignInFragment"
+        tools:layout="@layout/fragment_sign_in">
+        <action
+            android:id="@+id/action_signInFragment_to_universityFragment"
+            app:destination="@id/universityFragment"
+             />
+    </fragment>
+    <fragment
+        android:id="@+id/universityFragment"
+        android:name="com.tasks.university.presentation.UniversityFragment"
+        android:label="UniversityFragment"
+        tools:layout="@layout/fragment_university" >
+        <action
+            android:id="@+id/action_universityFragment_to_universityInfoFragment"
+            app:destination="@id/universityInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/universityInfoFragment"
+        android:name="com.tasks.university_info.UniversityInfoFragment"
+        android:label="UniversityInfoFragment"
+        tools:layout="@layout/fragment_university_info" />
+</navigation>

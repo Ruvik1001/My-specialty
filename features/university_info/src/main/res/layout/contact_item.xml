@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ФИО: "
+                style="@style/SmallText"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/contactName"
+                android:layout_width="match_parent"
+                style="@style/SmallText"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Должность: "
+                style="@style/SmallText"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/position"
+                android:layout_width="match_parent"
+                style="@style/SmallText"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Время приема: "
+            style="@style/SmallText"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:id="@+id/workingHoursContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/large_dp"
+            >
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Телефон: "
+            style="@style/SmallText"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            style="@style/SmallText"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Почта: "
+            style="@style/SmallText"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            style="@style/SmallText"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+    </LinearLayout>
+
+    </LinearLayout>

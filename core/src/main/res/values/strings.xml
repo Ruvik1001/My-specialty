@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My speciality</string>
+    <string name="mailPattern">[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}</string>
+    <string name="networkErrorTitle">Проблемы с подключением к сети</string>
+    <string name="networkError">Проверьте подключение или повторите позднее.</string>
+    <string name="reloadText">Перезагрузить</string>
+    <string name="Ok_ru">Oк</string>
+    <string name="KEY_BUNDLE_UNIVERSITY_TO_UNIVERSITY_INFO_UNIVERSITY_LIST_ITEM">KEY_BUNDLE_UNIVERSITY_TO_UNIVERSITY_INFO_UNIVERSITY_LIST_ITEM</string>
+    <string name="KEY_BUNDLE_UNIVERSITY_TO_UNIVERSITY_INFO_IMAGE_URL">KEY_BUNDLE_UNIVERSITY_TO_UNIVERSITY_INFO_IMAGE_URL</string>
+    <string name="mrk">2b946fb4-0dba-4cc6-a732-bf494be9624d</string>
+    <string name="t_gid">pic_id_</string>
+    <string name="intentTelUriPrefics">tel:</string>
+    <string name="intentEmailUriPrefics">mailto:</string>
+    <string name="success">Success</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="phone_number_is_empty">Phone number is empty</string>
+    <string name="email_address_is_empty">Email address is empty</string>
+    <string name="lunch_f">(обед %s)</string>
+</resources>

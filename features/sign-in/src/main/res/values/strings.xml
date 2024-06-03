@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emailHint">Введите логин</string>
+    <string name="passwordHint">Введите пароль</string>
+    <string name="loginButtonText">Войти</string>
+    <string name="wrongSignInText">Неверный логин или пароль</string>
+    <string name="signInTitle">Вход</string>
+    <string name="confirmButtonText">Продолжить</string>
+    <string name="wrongPasswordFormatText">Пароль не может быть пустым</string>
+    <string name="author_text">Автор: РИБО-02-22 Емельянова Елена Сергеевна</string>
+    <string name="GROUP_KEY">RIBO-02-22</string>
+    <string name="user_not_found">Учётная запись не найдена</string>
+</resources>
